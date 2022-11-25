@@ -1,0 +1,9 @@
+[logging]
+level = INFO
+
+[db_conf]
+host = localhost
+port = 5432
+database = dtcd_storage_system_backend
+user = dtcd_storage_system_backend
+password = dtcd_storage_system_backend
