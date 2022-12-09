@@ -6,7 +6,7 @@ from dtcd_storage_system_backend.system.scope import Scope
 class TestScope(TestCase):
 
     def setUp(self) -> None:
-        self.scope = Scope()
+        self.scope = Scope("testApp", "testScope")
 
     def test_add_record(self):
         record = {"key": "k1", "value": "v1"}
