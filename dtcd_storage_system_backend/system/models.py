@@ -16,7 +16,3 @@ class ScopeModel(StorageModel):
 
     scope_name = models.TextField()
 
-
-class ScopeModel(StorageModel):
-
-    scope_name = models.TextField()
