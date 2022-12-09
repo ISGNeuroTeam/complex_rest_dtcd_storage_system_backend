@@ -16,3 +16,7 @@ class ScopeModel(StorageModel):
 
     scope_name = models.TextField()
 
+
+class StateModel(StorageModel):
+    workspaceID = models.TextField()
+    created_at = models.DateTimeField(auto_now_add=True)
