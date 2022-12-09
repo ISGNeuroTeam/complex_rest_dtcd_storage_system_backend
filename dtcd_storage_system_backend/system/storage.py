@@ -53,3 +53,7 @@ class Storage:
     def clear_storage(self):
         response = self.model.objects.all().delete()
         return response
+
+    def get_records_by_filter(self, filter_query):
+        records = self.model.objects.filter(**filter_query)
+        return records
